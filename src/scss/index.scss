@@ -6,6 +6,15 @@
     local('Segoe UI Symbol'), local('Noto Color Emoji');
 }
 
+#root {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -ms-flex-preferred-size: 0;
+  flex: 1 1 auto;
+  flex-basis: 0;
+  position: relative;
+}
+
 html,
 body {
   display: -webkit-box;
